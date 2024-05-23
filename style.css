@@ -1,0 +1,19 @@
+li, nav h1 {
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: aliceblue;
+    padding: 2em;
+    text-align: center;
+}
