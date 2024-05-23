@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>3000-es feladatok</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,8 +13,8 @@
         <nav>
             <ul>
                 <li><a href="#"><h1>Tóth Liliána honlapja</h1></a></li>
-                <li>Aloldal 1</li>
-                <li><a href="./aloldal2.html">Aloldal 1</a></li>
+                <li>3000-es feladatok</li>
+                <li><a href="./LogoKaresz.html">Logo Karesz</a></li>
                 <li><a href="./aloldal3.html">Aloldal 1</a></li>
                 <li><a href="./aloldal4.html">Aloldal 1</a></li>
             </ul>
@@ -23,19 +23,19 @@
     <main>
         <h2>3000-es feladat</h2>
 
-        <h3>Erre a kódra épülnek az első 3000-res feladatok:</h3>
+        <h3>Erre a kódra épülnek az első 3000-es feladatok:</h3>
         <pre>
             <code>
                 static int[] Beolvasas()
                 {
-                    string elso_sor = Console.ReadLine(); // elso_sor = "10 3"
-                    string[] elso_sor_tombje = elso_sor.Split(' '); // elso_sor_tombje = ["10", "3"]
-                    int N = Convert.ToInt32(elso_sor_tombje[0]); // N = 10
-                    int K = int.Parse(elso_sor_tombje[1]); // K = 3, ez is ugyanúgy számmá alakít!
+                    string elso_sor = Console.ReadLine();
+                    string[] elso_sor_tombje = elso_sor.Split(' ');
+                    int N = Convert.ToInt32(elso_sor_tombje[0]);
+                    int K = int.Parse(elso_sor_tombje[1]);
 
-                    int[] t = new int[N]; // t = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    int[] t = new int[N];
 
-                    for (int i = 0; i < N; i++) // ez most 10-szer fog lefutni!
+                    for (int i = 0; i < N; i++)
                     {
                         string sor = Console.ReadLine(); // sor = "105"
                         t[i] = Convert.ToInt32(sor);
