@@ -22,7 +22,58 @@
         </nav>
     </header>
     <main>
-       
+        <h2>OOP Karesz feladatok</h2>
+
+        <h3>Egy példa:</h3>
+        <pre>
+            <code>
+                using System;
+                using System.Collections.Generic;
+                using System.ComponentModel;
+                using System.Data;
+                using System.Drawing;
+                using System.Linq;
+                using System.Text;
+                using System.Windows.Forms;
+                using System.Threading;
+
+                namespace Karesz
+                {
+                    public partial class Form1 : Form
+                    {
+                        void menj_es_rakj(int lepesek)
+                        {
+                            for (int i = 0; i < lepesek; i++)
+                            {
+                                Lépj();
+                                Tegyél_le_egy_kavicsot();
+                            }
+                        }
+
+                        void L_Betu(int db, int irány)
+                        {
+                            menj_es_rakj(db);
+                            Fordulj(irány);
+                            menj_es_rakj(db-1);
+                        }
+                        void DIÁK_ROBOTJAI()
+                        {
+                         Robot karesz = Robot.Get("Karesz");
+
+                            karesz.Feladat = delegate ()
+                            {
+                                L_Betu(5, jobbra);
+                                Fordulj(jobbra);
+                                L_Betu(5, balra);
+                            };
+                        }
+                    }
+                }
+            </code>
+        </pre>
+
+        <h2>Maga a pálya így néz ki:</h2>
+        <img src="./images/palya29.png" alt="">
     </main>
     <footer>
         <h3>Elérhetőség: <a href="mailto:toth.liliana.23f@szlgbp.com">toth.liliana.23f@szlgbp.com</a></h3>
