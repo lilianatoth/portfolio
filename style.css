@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lilita+One&display=swap');
 
 li, nav h1 {
     display: inline;
@@ -10,58 +11,71 @@ nav ul {
     padding: 0;
 }
 
-nav a {
+nav a, h3 {
     text-decoration: none;
-}
 
-footer {
-    background-color: aliceblue;
-    padding: 2em;
-    text-align: center;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-
-li, nav h1 {
-    display: inline;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    text-decoration: none;
-    padding: 2em;
-    background-color: rgb(217, 245, 248);
-    border-radius: 20px;
-
-    font-family: "Lilita One", sans-serif;
-    font-weight: 100;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
     font-style: normal;
+    font-size: large;
+
+    color: rgb(40, 77, 41);
+
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+a {
+    text-decoration: none;
+
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+
+    color: rgb(40, 77, 41);
 }
 
 footer {
-    background-color: rgb(209, 243, 202);
+
+    background-image: url(./images/green-and-yellow-background-b126c6rdiq8upoqh.webp);
     padding: 2em;
     text-align: center;
-}
-
-h2 {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    vertical-align: bottom;
 }
 
 h1 {
-    font-family: "Lilita One", sans-serif;
-    font-weight: 400;
+    text-decoration: none;
+
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
     font-style: normal;
+    font-size: large;
+
+    color: rgb(21, 175, 26);
+
     margin-right: 1em;
+    margin-left: 1em;
 }
 
-header {
-    margin-top: 3em;
+h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
 }
+
+
+header {
+    padding: 2em;
+    background-image: url(./images/green-and-yellow-background-b126c6rdiq8upoqh.webp);
+}
+
+img {
+    
+    width: 50%;
+    margin-left: 25%;
+    padding: 1em;
+    background-image: url(./images/green-and-yellow-background-b126c6rdiq8upoqh.webp);
+    margin-bottom: 2em;
+}
+

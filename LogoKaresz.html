@@ -12,9 +12,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="./index.html"><h1>Tóth Liliána honlapja</h1></a></li>
+                <li><a href="./index.html">Tóth Liliána honlapja</a></li>
                 <li><a href="./3000.html">3000-es feladatok</a></li>
-                <li>Logo Karesz</li>
+                <li><h1>Logo Karesz</h1></li>
                 <li><a href="./OOPkaresz.html">OOP Karesz</a></li>
                 <li><a href="./web.html">Web</a></li>
                 <li><a href="./eHod.html">e-Hód verseny</a></li>
@@ -22,29 +22,25 @@
         </nav>
     </header>
     <main>
-        <h2>Logo Karesz feladat</h2>
+        <h2>Logo Karesz feladatok</h2>
 
-        <h3>Erre a kódra épülnek a feladatok:</h3>
+        <h3>Egy példa:</h3>
         <pre>
             <code>
-                void ha_fekete_és_piros_vedd_fel()
-                {
-                    if (karesz.Alatt_ez_van() == 2)
-                    {
-                        Vegyél_fel_egy_kavicsot();
+                void nyomok(double db, double méret1, double méret2, double méret3)
+		        {
+			        for (int i = 0; i < db; i++)
+			        {
+                        zLép("bal", méret2, méret3);
+                        zLép("jobb", méret2, méret3);
+                        Lépés(méret1);
                     }
-                    else if (karesz.Alatt_ez_van() == 3)
-                    {
-                        Vegyél_fel_egy_kavicsot();
-                    }
-                    else
-                    {
-                        return;
-                    }
-                }
-
+		        }
             </code>
         </pre>
+
+        <h2>Így néz ki:</h2>
+        <img src="./images/logo_sorminta_labnyomok.png" alt="">
     </main>
     <footer>
         <h3>Elérhetőség: <a href="mailto:toth.liliana.23f@szlgbp.com">toth.liliana.23f@szlgbp.com</a></h3>
