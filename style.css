@@ -17,33 +17,22 @@ nav a {
     font-family: "Abril Fatface", serif;
     font-weight: 20em;
     font-style: normal;
-    font-size: large;
+    font-size: 135%;
 
     color: rgb(40, 77, 41);
-    font-size: 4em;
 
     margin-right: 1em;
     margin-left: 1em;
 }
 
-a {
-    text-decoration: none;
-
-    font-family: "Abril Fatface", serif;
-    font-weight: 20em;
-    font-style: normal;
-    font-size: 3em;
-
-    color: rgb(40, 77, 41);
-}
 
 footer {
 
     background-image: url(./images/green-and-yellow-background-b126c6rdiq8upoqh.webp);
-    padding: 2em;
+    padding: 2%;
     text-align: center;
     vertical-align: bottom;
-    font-size: 1.3em;
+    font-size: 130%;
 }
 
 h1 {
@@ -52,7 +41,7 @@ h1 {
     font-family: "Abril Fatface", serif;
     font-weight: 20em;
     font-style: normal;
-    font-size: 4em;
+    font-size: 135%;
 
     color: rgb(21, 175, 26);
 
@@ -67,13 +56,13 @@ h2, h3 {
     font-family: "Abril Fatface", serif;
     font-weight: 20em;
     font-style: normal;
-    font-size: 4.5em;
+    font-size: 170%;
 
     color: rgb(40, 77, 41);
 }
 
 h3 {
-    font-size: 4em;
+    font-size: 155%;
 }
 
 h4 {
@@ -84,7 +73,6 @@ h4 {
     font-family: "Abril Fatface", serif;
     font-weight: 20em;
     font-style: normal;
-    font-size: 3em;
 }
 
 
@@ -111,21 +99,21 @@ table {
     margin-top: 1,5em;
     background-image: url(./images/green-and-yellow-background-b126c6rdiq8upoqh.webp);
     color: rgb(40, 77, 41);
-    font-size: 3.5em;
+    font-size: 135%;
 }
 
 article, code {
-    font-size: 4em;
+    font-size: 130%;
 }
 
 p {
-    font-size: 3.5em;
+    font-size: 130%;
     margin-top: 0%;
     margin-bottom: 0%;
 }
 
 figcaption {
     text-align: center;
-    font-size: 3em;
+    font-size: 100%;
     margin-bottom: 2em;
 }
