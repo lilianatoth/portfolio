@@ -129,3 +129,7 @@ figcaption {
     font-size: 100%;
     margin-bottom: 2em;
 }
+
+body {
+    background-color: rgb(245, 255, 226);
+}
