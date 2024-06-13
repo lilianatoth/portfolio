@@ -22,27 +22,29 @@
         </nav>
     </header>
     <main>
-        <h2>3000-es feladat</h2>
+        <h2>3000-es feladatok</h2>
 
+        <h3>Vélemény</h3>
+        <p>Az elején kicsit nehezen mentek, de idővel belejöttem. Jó sok ilyen feladat van. Volt sok hibám, de minél többet csináltam, annál jobban ment. Mindenki nagyon segítőkész volt, amikor elakadtam valamivel.</p>
+        
         <h3>Erre a kódra épülnek az első 3000-es feladatok:</h3>
         <pre>
             <code>
-                static int[] Beolvasas()
-                {
-                    string elso_sor = Console.ReadLine();
-                    string[] elso_sor_tombje = elso_sor.Split(' ');
-                    int N = Convert.ToInt32(elso_sor_tombje[0]);
-                    int K = int.Parse(elso_sor_tombje[1]);
+        static int[] Beolvasas()
+        {
+            string elso_sor = Console.ReadLine();
+            string[] elso_sor_tombje = elso_sor.Split(' ');
+            int N = Convert.ToInt32(elso_sor_tombje[0]);
+            int K = int.Parse(elso_sor_tombje[1]);
 
-                    int[] t = new int[N];
+            int[] t = new int[N];
 
-                    for (int i = 0; i < N; i++)
-                    {
-                        string sor = Console.ReadLine(); // sor = "105"
-                        t[i] = Convert.ToInt32(sor);
-                    }
-                }
-
+            for (int i = 0; i < N; i++)
+            {
+                string sor = Console.ReadLine(); // sor = "105"
+                t[i] = Convert.ToInt32(sor);
+            }
+        }
             </code>
         </pre>
 

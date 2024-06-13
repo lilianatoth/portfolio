@@ -89,14 +89,13 @@ h4 {
 
 
 header {
-    padding: 2em;
+    padding: 1em;
     background-image: url(./images/green-and-yellow-background-b126c6rdiq8upoqh.webp);
 }
 
 img {
     
-    width: 60%;
-    margin-left: 20%;
+    width: 90%;
     padding: 1em;
     background-image: url(./images/green-and-yellow-background-b126c6rdiq8upoqh.webp);
     margin-bottom: 1em;
@@ -116,6 +115,7 @@ table {
 
 code {
     font-size: 125%;
+    text-align: center;
 }
 
 p {
@@ -132,4 +132,5 @@ figcaption {
 
 body {
     background-color: #f5ffe2;
+    margin: 0%;
 }
