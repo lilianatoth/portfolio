@@ -1,12 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lilita+One&display=swap');
 
+
+main {
+    text-align: center;
+}
+
 li.main_menu {
     display: inline;
 }
 
-ol {
+
+ol, ul {
     font-size: 130%;
+    text-align: left;
 }
 nav h1 {
     display: inline;
@@ -80,7 +87,7 @@ h3 {
 h4 {
     color: rgb(40, 77, 41);
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     text-align: center;
     font-family: "Abril Fatface", serif;
     font-weight: 20em;
@@ -113,9 +120,9 @@ table {
     font-size: 135%;
 }
 
-code {
+pre {
     font-size: 125%;
-    text-align: center;
+    text-align: left;
 }
 
 p {
@@ -133,4 +140,17 @@ figcaption {
 body {
     background-color: #f5ffe2;
     margin: 0%;
+}
+
+div.hidden_div {
+    display: none;
+}
+
+div.visible_div {
+    display: initial;
+}
+
+button {
+    font-size: 0.1em;
+    margin-top: 0%;
 }
